@@ -1,0 +1,72 @@
+#mainContainer{
+    width:45%;
+    height: 550px;
+    background-color: grey;
+    position: relative;
+    margin:auto;
+
+    display: flex;
+    justify-content: center; /* horizontal */
+}
+
+#gameContainer{
+    padding-top:20px;
+    width: 40%;
+    aspect-ratio: 10/21;
+    background-color: grey;
+    position:absolute;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#rightInfo{
+    width:30%;
+    padding-left: 20%;
+}
+
+#leftInfo{
+    width:30%;
+    padding-right: 20%;
+
+    display:flex;
+    flex-direction: column;
+}
+
+#nextPiece{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+}
+
+#nextPieceDisplay{
+    width: 80%;
+    padding-left: 10%;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+#holdPiece{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+}
+
+#holdPieceDisplay{
+    width: 80%;
+    padding-left: 10%;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.gameCell{
+    width: 10%;
+    aspect-ratio: 1/1;
+    background-color: black;
+
+}
+
+.displayCell{
+    width:16.67%;
+    aspect-ratio: 1/1;
+    background-color: black;
+}
